@@ -1,0 +1,63 @@
+/* src/components/CargoFormModal.css */
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+}
+
+.modal {
+  background: #ffffff;
+  padding: 2rem;
+  border-radius: 8px;
+  width: 500px;
+}
+
+.input-field {
+  display: block;
+  width: 100%;
+  margin-bottom: 1rem;
+  padding: 0.75rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  color: #000;
+}
+
+.modal-actions {
+  display: flex;
+  justify-content: space-between;
+}
+
+.save-btn {
+  background-color: #28a745;
+  color: white;
+  padding: 0.5rem 1.5rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.cancel-btn {
+  background-color: #dc3545;
+  color: white;
+  padding: 0.5rem 1.5rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.add-btn {
+  background: linear-gradient(90deg, #00c6ff, #0072ff);
+  color: white;
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 1rem;
+  cursor: pointer;
+}
